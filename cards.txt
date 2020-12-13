@@ -1,8 +1,8 @@
 +-----+-----------+----------+---------------------+
 | ID  | NAME      | Quantity | TYPE                | DESCRIPTION
 +-----+-----------+----------+---------------------+
-| #0  | HR        | 82       | HashRate            |
-| #1  | 51%       | 1        | Action#-2#Attack    |
+| #0  | HR        | 64       | HashRate            |
+| #1  | 51%       | 1        | Action#-1#Attack    |
 | #2  | ALT       | 1        | #Trade              |
 | #3  | ATH       | 2        | Event#Market        |
 | #4  | ATL       | 2        | Event#Market        |
@@ -10,33 +10,36 @@
 | #6  | BOT       | 2        | Action#Challenge    |
 | #7  | BTFD      | 2        | Event#Market        |
 | #8  | BULL      | 2        | Action#Gift         |
-| #9  | CONSENSUS | 1        | Action#Security     |
-| #10 | DCA       | 1        | Action#Trade        |
-| #11 | DEX       | 1        | Action#Trade        |
-| #12 | DIFF--    | 1        | Action#Mining       |
-| #13 | DIFF++    | 1        | Action#Mining       |
-| #14 | DOUBLE    | 1        | Action#-1#Gift      |
-| #15 | FEES      | 1        | Action#Mining       |
-| #16 | FIAT      | 1        | Action#Central      |
-| #17 | FORK      | 1        | Action#-2#Attack    |
-| #18 | HALF      | 1        | Action#-1#Attack    |
-| #19 | HODL      | 1        | Action#Security     |
-| #20 | ICO       | 1        | Action#Challenge    |
-| #21 | KYC       | 1        | Event#Central       |
-| #22 | LEVERAGE  | 1        | Action#Attack       |
-| #23 | MINER     | 0        | Action#Trade        |
-| #24 | NONCE     | 1        | Action#-2#Mining    |
-| #25 | OFFLINE   | 1        | Action#Security     |
-| #26 | ORACLE    | 1        | Action#Attack       |
-| #27 | P&D       | 2        | Event#Challenge     |
-| #28 | PONZI     | 1        | Action#-1#Gift      |
-| #29 | PoS       | 2        | Event#Gift          |
-| #30 | REKT      | 1        | Action#-1#Attack    |
-| #31 | SCAM      | 1        | Action#Attack       |
-| #32 | STRONG    | 1        | Action#Gift         |
-| #33 | SYBIL     | 1        | Event#Attack        |
-| #34 | T-L       | 1        | Action#-1#Attack    |
-| #35 | WEAK      | 1        | Action#Attack       |
-| #36 | WHALE     | 1        | Action#-1#Challenge |
+| #9  | CEX       | 1        | Action#Central      |
+| #10 | CONSENSUS | 1        | Action#Security     |
+| #11 | DCA       | 1        | Action#Trade        |
+| #12 | DEX       | 1        | Action#Trade        |
+| #13 | DIFF--    | 1        | Action#Mining       |
+| #14 | DIFF++    | 1        | Action#Mining       |
+| #15 | DOUBLE    | 1        | Action#-1#Gift      |
+| #16 | FEES      | 1        | Action#Mining       |
+| #17 | FIAT      | 1        | Action#Central      |
+| #18 | FLIP      | 1        | Action#Trade        |
+| #19 | FORK      | 1        | Action#-1#Attack    |
+| #20 | HALF      | 1        | Action#-1#Attack    |
+| #21 | HODL      | 1        | Action#Security     |
+| #22 | ICO       | 1        | Action#Challenge    |
+| #23 | KYC       | 1        | Event#Central       |
+| #24 | LEVERAGE  | 1        | Action#Attack       |
+| #25 | MINER     | 1        | Action#Trade        |
+| #26 | NONCE     | 1        | Action#-1#Mining    |
+| #27 | OFFLINE   | 1        | Action#Security     |
+| #28 | ORACLE    | 1        | Action#Attack       |
+| #29 | P&D       | 2        | Event#Challenge     |
+| #30 | PONZI     | 1        | Action#-1#Gift      |
+| #31 | PoS       | 2        | Event#Gift          |
+| #32 | REKT      | 1        | Action#-1#Attack    |
+| #33 | SCAM      | 1        | Action#Attack       |
+| #34 | STRONG    | 1        | Action#Gift         |
+| #35 | SYBIL     | 1        | Event#Attack        |
+| #36 | T-L       | 1        | Action#-1#Attack    |
+| #37 | TEST      | 1        | Action#Attack       |
+| #38 | WEAK      | 1        | Action#Attack       |
+| #39 | WHALE     | 1        | Action#-1#Challenge |
 +-----+-----------+----------+---------------------+
 
