@@ -3,5 +3,6 @@ ViresInNumeris
 
 Players start with 2 cards.
 Blocks rewards height-1 B.
+Loosing a block makes you loose its reward.
 Actions can be played anytime.
 Target: 8 blocks.
