@@ -60,5 +60,4 @@ AC 00 00 00 00
 
 ShkSchneider(.github.io)
 Rev. 1.4 (2k20)
-Dedicated to Satoshi Nakamoto
-& Hal Finney (1956-2014)
+Dedicated to Hal Finney (1956-2014)
