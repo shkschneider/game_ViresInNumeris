@@ -4,8 +4,8 @@ ViresInNumeris
 Players start with nPlayers cards.
 Blocks rewards 1 B.
 Loosing a block makes you loose its reward.
-Actions can be played anytime.
-Target: 8 blocks.
+Flash Actions can be played anytime.
+Target: depending on nPlayers.
 A player cannot loose its Genesis Block nor initial Coin on first turn.
 Score: blocks+coins.
 
