@@ -1,1 +1,1 @@
-whitepaper.txt
+whitepaper.md
