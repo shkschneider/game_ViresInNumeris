@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vires In Numeris</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <style>
+    * { color: white; font-family: "Roboto", sans-serif; }
+    body { background: #35654d; }
+    h1:before, h1:after { padding: 1%; content: "₿"; color: #F2A900; }
+    h2 { font-style: italic; text-decoration: underline; text-decoration-style: dashed; text-decoration-color: #F2A900; }
+    div#body { max-width: 100%; margin: auto; text-align: center; }
+    img { width: 20%; height: auto; vertical-align: middle; }
+    img.sheet { border: 1px solid transparent; border-radius: 0%; }
+    img.card { border: 1px solid black; border-radius: 5%; }
+    img.box { width: 40%; border: none; }
+    img.clickable:hover { cursor: pointer; }
+  </style>
+  <script type="text/javascript">
+    function render(container, className, item) {
+      let el = document.createElement("img")
+      el.className = className
+      el.id = item.Id
+      el.name = item.Name
+      el.tag = item.Tag
+      el.alt = item.Description
+      el.src = item.Src
+      el.onclick = (ev) => { window.open(el.src) }
+      container.appendChild(el)
+    }
+  </script>
+</head>
+<body>
+  <div id="body">
+    <h1>Vires In Numeris</h1>
+    <h2>Race for the longest Chain!</h2>
+    <div class="container"></div>
+    <script type="text/javascript">
+      let source = "https://raw.githubusercontent.com/shkschneider/game_ViresInNumeris/master/cards.json"
+      let $container = document.querySelector("div.container")
+      fetch(source)
+      .catch((e) => { $container.innerHTML = e.toString() })
+      .then((response) => { return response.text() })
+      .then((text) => { return JSON.parse(text) })
+      .then((json) => {
+        for (var i = 1; i <= 10; i++) {
+          render($container, "clickable sheet", { Id: 0, Src: "game/00-whitepaper" + i.toString().padStart(2, "0") + ".png"})
+        }
+        render($container, "clickable card", { Id: 0, Src: "game/00-back.png" })
+        for (var i = 0; i < json.length; i++) {
+          let item = json[i]
+          item.Id = (item.Id < 10 ? "0" : "") + item.Id
+          item.Name = item.Name
+            .replace("--", "MINUS")
+            .replace("++", "PLUS")
+            .replaceAll(/[%\.\-]/gi, "")
+            .replace("&", "N")
+            .toUpperCase()
+          item.Src = "game/" + item.Id + "-" + item.Name + ".png"
+          render($container, "clickable card", item)
+        }
+        $container.appendChild(document.createElement("br"))
+        render($container, "clickable box", { Id: 0, Src: "game/00-box.png" })
+      })
+    </script>
+  </div>
+</body>
+</html>
