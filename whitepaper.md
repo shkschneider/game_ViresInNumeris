@@ -1,5 +1,7 @@
-Vires In Numeris
+Vires In Numeris ![Revision](https://img.shields.io/badge/rev-1.5-blue.svg)
 ================
+
+[![Preview](https://img.shields.io/badge/PREVIEW-cards.md-green.svg)](game.md)
 
 > Race for the longest Chain!
 
@@ -112,6 +114,4 @@ Credits
   - ShkSchneider
   - MeJe
 
-> Rev. 1.5 (2k20)
->
-> Licensed under CC-BY-NC-SA 4.0
+[![CC-BY-NC_SA](https://licensebuttons.net/l/by-nc-sa/3.0/88x31.png)](https://creativecommons.org/licenses/by-nc-sa/4.0)
