@@ -1,5 +1,0 @@
-icons/*.png: cryptoicons.co
-fonts/exodar.ttf: https://www.dafont.com/exodar.font
-fonts/conthrax.ttf: https://www.dafont.com/conthrax.font
-thegamecrafter: https://www.thegamecrafter.com
-logo.png: https://blog.startups.ch/fr/2018/01/03/taxation-crypto-monnaies/

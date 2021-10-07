@@ -6,15 +6,13 @@ Race for the longest Chain!
 
 Spend HashRates to mine Blocks.
 Mining rewards you with Coins.
-Spend them on powerful Actions or collect them.
 
-Play Actions card to favor yourself or attack your opponent(s).
+Go through random Events. Use any Action available to challenge opponents, try your luck, bet, steal, counter, destroy... to be the best miner!
 
-The longest Chain ends the game.
-Blocks and Coins score 1 point each.
-The Player with the most points wins.
+The longest Chain ends the game. The player with the most Blocks and Coins wins!
 
 _You will need a source of randomness: a coin to flip usually works._
+__No prior knowledge is required.__
 
 ```
 01 00 00 00 00 00 00 00  00 00 00 00 00 00 00 00
@@ -42,6 +40,7 @@ F3 55 04 E5 1E C1 12 DE  5C 38 4D F7 BA 0B 8D 57
 
 > ShkSchneider(.github.io)
 >
-> Rev. 1.5 (2k20)
+> Rev. 1.6 (2k21)
 >
-> Dedicated to Hal Finney (1956-2014)
+> Dedicated to Satoshi Nakamoto & Hal Finney (1956-2014)
+
